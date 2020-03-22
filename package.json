@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-lodash-to-native",
+  "name": "eslint-plugin-lodash-to-native-test",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,9 @@
     "prettier": "^1.19.1",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-lodash-to-native": "^0.0.0",
     "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "eslint-plugin-lodash-to-native": "git+ssh://git@github.com/atorbek/eslint-plugin-lodash-to-native.git"
   }
 }
